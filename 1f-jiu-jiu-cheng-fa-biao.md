@@ -63,7 +63,7 @@ SCSS
 
 ### SCSS
 
-> 利用偽元素 \(::before, ::after\)呈現4個 x 及橫線
+> 利用偽元素 `::before, ::after`呈現4個 x 及橫線
 >
 > 參考網址：[https://www.oxxostudio.tw/articles/201706/pseudo-element-1.html](https://www.oxxostudio.tw/articles/201706/pseudo-element-1.html)
 
@@ -175,7 +175,7 @@ var wrap = document.querySelector(".content");
 #### querySelector\( \)－取得第一個元素
 
 > 記得要加「.」或「\#」才知道是哪個CSS屬性！  
-> 而要取得所有元素可使用 **querySelectorAll\( \)**
+> 而要取得所有元素可使用 **`querySelectorAll( )`**
 
 * 新增一個div標籤並給它指定屬性（迴圈表示跑2~9次，也就是添加8個div）。
 
@@ -191,8 +191,8 @@ for (var i = 2; i < 10; i++) {
 
 #### setAttribute\( \)－添加指定屬性
 
-> setAttribute\(" 屬性 ", " 名稱 " \)。  
-> 若是只新增class可直接使用 **classList.add\(" 名稱 "\)**
+> `setAttribute(" 屬性 ", " 名稱 " )`  
+> 若是只新增class可直接使用 **`classList.add(" 名稱 ")`**
 
 #### appendChild\( \)－附加到某元素
 
@@ -222,7 +222,7 @@ for (var i = 2; i < 10; i++) {
 
 #### textContent－純文件內容
 
-> 和innterHTML不同於**inntetHTML可讀標籤屬性**。
+> 和innterHTML不同於**`inntetHTML`可讀標籤屬性**。
 
 * 接下來就是本題重點－變數使用
 
@@ -236,8 +236,8 @@ for (var j = 1; j <= 9; j++) {
 ```
 
 > 「 \` 」 為鍵盤左上角～那顆，和「${ }」都是配合變數使用。  
-> 表示每一次新增的li標籤裡面的文字內容數字皆不同  
-> 最後把它附加回ul就大功大成啦！
+> 表示每一次新增的`li`標籤裡面的文字內容數字皆不同  
+> 最後把它附加回`ul`就大功大成啦！
 
 ## 實際手打語法
 
